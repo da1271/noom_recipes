@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  background-color: lightblue
+}
+.page-container {
+  width: 800px;
+  margin: 10px auto;
+  padding: 30px;
+  background-color: white;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.recipe-listing {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.recipe-listing .recipe-list-item{
+  padding: 10px 30px;
+  width: 200px;
+}
+h2{
+  text-align: center;
+}
+.search-bar {
+  position: relative;
+  left: 30px;
+}
+.search-bar input{
+  width: 240px;
+}
+a.button {
+  width: 100px;
+  text-align: center;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  color: initial;
+}
