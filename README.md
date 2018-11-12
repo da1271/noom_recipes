@@ -11,7 +11,10 @@ to install the node modules for the application.
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-If you do not have CORS extension, please install the google chrome CORS extension at:
-https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en
-<br>
+In the server directory, you can run:
+
+### `node server.js`
+
+to run the proxy server
+
 
