@@ -19,7 +19,7 @@ class FavoritePage extends React.Component {
   }
 }
 
-function mapStateToProps(state) {                                                 // this.props has the list of favorited recipes which is passed onto child component 
+function mapStateToProps(state) {                                                
   return {
     favorite: state.favorite
   };

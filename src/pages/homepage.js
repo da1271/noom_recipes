@@ -19,8 +19,7 @@ class Homepage extends React.Component {
     recipeSearch(term){
       this.props.fetchRecipe(term);
     }
-                                                                                  // on term change, it will invoke the function to get the recipe. with lodash to limit the calls
-                                                                                  // pass in the recipe from props.recipes to use in the child component RecipeListing
+
     render() {
       return <div>
             <h2>Homepage</h2>
